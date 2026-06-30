@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ঝলক ক্লথ স্টোর - প্রিমিয়াম কালেকশন</title>
+    <title>ঝলক ক্লথ স্টোর - প্রিমিয়াম লিওন আউটফিট ও জার্সি কালেকশন</title>
     <style>
         /* Base Reset & Variables */
         * {
@@ -110,7 +110,7 @@
         /* Responsive Product Grid */
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 30px 20px;
         }
 
@@ -154,7 +154,7 @@
         .product-image-wrapper {
             position: relative;
             width: 100%;
-            padding-top: 125px; /* Aspect ratio 4:5 for premium look */
+            padding-top: 125px;
             background-color: #f0f0f0;
             overflow: hidden;
         }
@@ -166,23 +166,6 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-        }
-
-        .image-placeholder {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #888888;
-            font-size: 13px;
-            font-weight: 500;
-            text-align: center;
-            padding: 10px;
-            background: #eaeaea;
         }
 
         /* Product Info Styling */
@@ -242,15 +225,9 @@
             transition: background-color 0.2s;
             margin-top: auto;
         }
-
-        .order-button.whatsapp {
-            background-color: #222222;
-            border: 1px solid var(--accent-color);
-        }
         
-        .order-button.whatsapp:hover {
+        .order-button:hover {
             background-color: var(--success-color);
-            border-color: var(--success-color);
         }
 
         /* Footer */
@@ -274,15 +251,9 @@
         }
 
         /* Responsive Grid Media Queries */
-        @media (max-width: 1024px) {
-            .product-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
         @media (max-width: 768px) {
             .product-grid {
-                grid-template-columns: repeat(2, 1fr); /* 2 Columns on Mobile */
+                grid-template-columns: repeat(2, 1fr);
                 gap: 15px 10px;
             }
             .category-header h1 {
@@ -305,7 +276,7 @@
 <body>
 
     <div class="announcement-bar">
-        ✨ নতুন কালেকশনে ধামাকা অফার! সব পোশাকে ২০% পর্যন্ত ছাড়! ✨
+        ✨ Leon Outfits স্টাইল ধামাকা অফার! নতুন কালেকশনের সব জার্সিতে ২০% পর্যন্ত ছাড়! ✨
     </div>
 
     <header>
@@ -318,31 +289,28 @@
             </ul>
         </div>
     </header>
-<div class="product-grid">
-
-    </div>
 
     <main class="main-content">
         
         <div class="category-header">
-            <h1>আমাদের বিশেষ স্পোর্টসওয়্যার ও কটন কালেকশন</h1>
-            <p>Leon Outfits স্টাইলে তৈরি আধুনিক ও আরামদায়ক পোশাকের চমৎকার সমাহার</p>
+            <h1>আমাদের বিশেষ স্পোর্টসওয়্যার কালেকশন</h1>
+            <p>Leon Outfits স্টাইলে তৈরি প্রিমিয়াম ও ট্রেন্ডি জার্সির চমৎকার সমাহার</p>
         </div>
 
         <div class="product-grid">
 
             <div class="product-card">
-                <span class="badge sale">২০% ছাড়</span>
+                <span class="badge sale">হট ডিল</span>
                 <div class="product-image-wrapper">
-                    <div class="image-placeholder">[ এখানে শাড়ির ছবি বসবে ]</div>
+                    <img src="brazil10.jpg" alt="ব্রাজিল ১০ নম্বর প্রিমিয়াম জার্সি" class="product-img">
                 </div>
                 <div class="product-info">
-                    <a href="#" class="product-title">প্রিমিয়াম ট্রেন্ডি জামদানি শাড়ি কালেকশন</a>
+                    <a href="#" class="product-title">ব্রাজিল প্রিমিয়াম এডিশন ১০ নম্বর ওভারসাইজড ট্রেন্ডি জার্সি</a>
                     <div class="product-price">
-                        <span class="old-price">৳ ৪,৫০০</span>
-                        <span class="current-price">৳ ৩,৬০০</span>
+                        <span class="old-price">৳ ১,৫০০</span>
+                        <span class="current-price">৳ ১,১৯০</span>
                     </div>
-                    <a href="https://wa.me/8801840200663?text=আমি প্রিমিয়াম জামদানি শাড়িটি কিনতে চাই" target="_blank" class="order-button whatsapp">
+                    <a href="https://wa.me/8801840200663?text=আমি ব্রাজিল প্রিমিয়াম ১০ নম্বর জার্সিটি কিনতে চাই" target="_blank" class="order-button">
                         💬 হোয়াটসঅ্যাপে অর্ডার করুন
                     </a>
                 </div>
@@ -351,15 +319,15 @@
             <div class="product-card">
                 <span class="badge">New</span>
                 <div class="product-image-wrapper">
-                    <div class="image-placeholder">[  "https://i.ibb.co.com/Ldbk6kqX/image.jpg"]</div>
+                    <img src="saint.jpg" alt="সেন্ট ব্রাজিল কাস্টম জার্সি" class="product-img">
                 </div>
-                <div class="so much premium ">
-                    <a href="#" class="product-title">এক্সক্লুসিভ কটন থ্রি-পিস মাল্টি কালার</a>
+                <div class="product-info">
+                    <a href="#" class="product-title">সেন্ট ব্রাজিল ১৮৮৭-২০২৫ স্পেশাল কলার এডিশন কাস্টম জার্সি</a>
                     <div class="product-price">
-                        <span class="old-price">৳ ৩,২০০</span>
-                        <span class="current-price">৳ ২,৫৬০</span>
+                        <span class="old-price">৳ ১,৬৫০</span>
+                        <span class="current-price">৳ ১,২৯০</span>
                     </div>
-                    <a href="https://wa.me/8801840200663?text=আমি এক্সক্লুসিভ কটন থ্রি-পিসটি কিনতে চাই" target="_blank" class="order-button whatsapp">
+                    <a href="https://wa.me/8801840200663?text=আমি সেন্ট ব্রাজিল স্পেশাল এডিশন জার্সিটি কিনতে চাই" target="_blank" class="order-button">
                         💬 হোয়াটসঅ্যাপে অর্ডার করুন
                     </a>
                 </div>
@@ -368,31 +336,15 @@
             <div class="product-card">
                 <span class="badge sale">অফার</span>
                 <div class="product-image-wrapper">
-                    <div class="image-placeholder">[ এখানে পাঞ্জাবির ছবি বসবে ]</div>
+                    <img src="leon.jpg" alt="লিওন কাস্টম ব্ল্যাক রেড জার্সি" class="product-img">
                 </div>
                 <div class="product-info">
-                    <a href="#" class="product-title">লিলেন এক্সক্লুসিভ ডিজাইনার পাঞ্জাবি</a>
+                    <a href="#" class="product-title">লিওন আউটফিটস কাস্টম ব্ল্যাক ও রেড স্ট্রাইপড প্রিমিয়াম জার্সি</a>
                     <div class="product-price">
-                        <span class="old-price">৳ ২,৮০০</span>
-                        <span class="current-price">৳ ২,২৪০</span>
+                        <span class="old-price">৳ ১,৭০০</span>
+                        <span class="current-price">৳ ১,৩৫০</span>
                     </div>
-                    <a href="https://wa.me/8801840200663?text=আমি লিলেন এক্সক্লুসিভ পাঞ্জাবিটি কিনতে চাই" target="_blank" class="order-button whatsapp">
-                        💬 হোয়াটসঅ্যাপে অর্ডার করুন
-                    </a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image-wrapper">
-                    <div class="https://i.ibb.co.com/Ldbk6kqX/image.jpg">[ এখানে টি-শার্ট / স্পোর্টসওয়্যার ছবি বসবে ]</div>
-                </div>
-                <div class="product-info">
-                    <a href="#" class="product-title">প্রিমিয়াম অ্যাথলেটিক ফিট স্পোর্টস টি-শার্ট</a>
-                    <div class="700">
-                        <span class="1000">৳ ১,২০০</span>
-                        <span class="current-price">৳ ৯৬০</span>
-                    </div>
-                    <a href="https://wa.me/8801840200663?text=আমি স্পোর্টস টি-শার্টটি কিনতে চাই" target="_blank" class="order-button whatsapp">
+                    <a href="https://wa.me/8801840200663?text=আমি লিওন আউটফিটস ব্ল্যাক ও রেড জার্সিটি কিনতে চাই" target="_blank" class="order-button">
                         💬 হোয়াটসঅ্যাপে অর্ডার করুন
                     </a>
                 </div>
@@ -403,7 +355,7 @@
 
     <footer>
         <div class="footer-info">
-            <p class="store-address">📍 আমাদের শোরুম: নোয়াখালী , মাইজদী প্রধান সড়ক, নোয়াখালী সদর, বাংলাদেশ।</p>
+            <p class="store-address">📍 যোগাযোগ: নোয়াখালী সদর উপজেলা মাইজদী প্রধান সড়ক অভিমুখে, বাংলাদেশ।</p>
             <p>📞 মোবাইল: +৮৮০ ১৮৪০-২০০৬৬৩</p>
             <p>&copy; ২০২৬ ঝলক ক্লথ স্টোর | সর্বস্বত্ব সংরক্ষিত।</p>
         </div>
